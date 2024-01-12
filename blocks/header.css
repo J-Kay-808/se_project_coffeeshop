@@ -9,6 +9,9 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 1;
 }
 
 .header__title {
@@ -39,7 +42,7 @@
   font-family: "Noto Serif", 'Times New Roman', serif;
   font-size: 20px;
   line-height: 30px;
-  margin: 28px 0 0;
+  margin: 0 ;
 }
 
 .header__image {
@@ -48,12 +51,14 @@
   height: 568px;
   margin-top: 94px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
+  align-items: flex-end;
+  margin: auto 0 0;
 }
 
 .header__paragraph {
@@ -66,3 +71,6 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* .header__paragraph:last-child {
+} */
