@@ -1,6 +1,6 @@
 .header {
   background-color: #ffffff;
-  background-image: url(/images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -15,7 +15,7 @@
   max-width: 729px;
   font-size: 60px;
   line-height: 70px;
-  font-family: "Inter", 'Arial', sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
@@ -57,7 +57,7 @@
 }
 
 .header__paragraph {
-  font-family: "Inter", 'Arial', sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
